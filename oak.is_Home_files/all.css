@@ -442,6 +442,11 @@ section > h1 {
   padding: 15px;
   background-color: #79d1b0;
 }
+
+.content h5 {
+  font-size: 1.5em;
+}
+
 @media screen and (max-width: 970px) {
   .home a.promo .wide-screen {
     display: none;
