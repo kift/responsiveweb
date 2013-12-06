@@ -494,7 +494,7 @@ section > h1 {
   bottom: 0;
 }
 .product_img {
-  background-image: url("01.png");
+  background-image: url("../images/01.png");
 }
 .product_img img {
   margin: 0, auto;
