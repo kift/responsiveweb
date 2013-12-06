@@ -291,6 +291,10 @@ ol {
   padding: 0;
   margin: 0;
 }
+ul {
+  text-align: left;
+  color: rgba(0,0,0,0.4);
+}
 a {
   color: #383838;
   text-decoration: none;
@@ -383,41 +387,44 @@ section > h1 {
 .home section > h1 {
   text-align: center;
 }
-.home #blog,
+.home #attention,
 .home #twitter {
   min-height: 220px;
   position: relative;
 }
-.home #blog p,
+.home #attention p,
 .home #twitter p,
-.home #blog li,
+.home #attention li,
 .home #twitter li {
   color: rgba(0,0,0,0.4);
-  display: inline;
   font-size: 1em;
 }
-.home #blog p a,
+.home #attention p a,
 .home #twitter p a {
   color: rgba(0,0,0,0.4);
   text-decoration: underline;
 }
-.home #blog h4,
+.home #attention h4,
 .home #twitter h4 {
   text-transform: uppercase;
   font-size: 1.3333333333333333em;
   font-weight: 300;
   margin: 0 0 1em;
 }
-.home #blog h5,
+.home #attention h5,
 .home #twitter h5 {
   font-size: 1.1666666666666667em;
   margin: 0;
 }
-.home #blog h5 a,
+.home #attention h5 a,
 .home #twitter h5 a {
   color: rgba(0,0,0,0.53);
 }
-.home #blog .button,
+.home #attention ul li {
+  margin-left: 2em;
+  text-align: left;
+}
+.home #attention .button,
 .home #twitter .button {
   margin-top: 1em;
 }
@@ -460,12 +467,13 @@ section > h1 {
   position: relative;
 }
 .home .featured h4 {
-  font-size: 2.111111111111111em;
+  font-size: 1.6em;
   font-weight: 400;
   margin: 6px 0;
 }
 .home .featured p {
-  font-size: 1.3333333333333333em;
+  text-align: left;
+  font-size: 1em;
   font-family: "Alright Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   color: rgba(0,0,0,0.4);
