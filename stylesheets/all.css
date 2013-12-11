@@ -284,7 +284,7 @@ body > footer a > span {
   vertical-align: middle;
 }
 img {
-  max-width: 60%;
+  max-width: 90%;
 }
 ul,
 ol {
@@ -1009,6 +1009,12 @@ b[class*=" ss-"]:before {
 }
 .half:nth-child(2n+3) {
   clear: left;
+}
+.three_quarter {
+  width: 72.855%;
+}
+.one_quarter {
+  width: 24.285%;
 }
 body .twitter-tweet-rendered {
   margin: 1em auto !important;
